@@ -1,0 +1,44 @@
+"*":
+  "atom-typescript": {}
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+      "*.txt"
+    ]
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "spacegray-dark-neue-ui"
+      "twilight-syntax-spacegray-ui"
+    ]
+  editor:
+    fontSize: 13
+    invisibles:
+      eol: "↩"
+    showInvisibles: true
+    tabLength: 4
+  "git-blame":
+    columnWidth: 307
+  "linter-eslint":
+    fixOnSave: true
+    ignoreFixableRulesWhileTyping: true
+  "linter-tslint":
+    fixOnSave: true
+  "linter-ui-default": {}
+  "markdown-preview":
+    useGitHubStyle: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      isDisabledIfNoConfigFile: true
+      isDisabledIfNotInPackageJson: true
+      showInStatusBar: true
+    prettierOptions:
+      bracketSpacing: false
+      semi: false
+      trailingComma: "all"
+  "tree-view":
+    alwaysOpenExisting: true
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
