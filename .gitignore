@@ -1,0 +1,47 @@
+# .gitignore file for dot-files
+
+## Ignore everything then override
+*
+!/*/
+.nvm/
+.oh-my-zsh/
+.vim.bak/
+
+## git
+!.gitignore
+!.gitconfig
+
+## iTerm
+!Library/Preferences/
+!com.googlecode.iterm2.plist
+
+## Shells
+!.profile
+!.bash_profile
+!.strict_mode.sh
+!.zlogin
+!.zshrc
+
+## Editors
+!.editorconfig
+
+### Atom
+.atom/.gitignore
+!.atom/config.cson
+# !.atom/github.cson
+# !.atom/init.coffee
+!.atom/keymap.cson
+!.atom/my-packages.txt
+# !.atom/snippets.cson
+!.atom/styles.less
+
+### Vim
+!.vimrc
+!.vim/install.sh
+!.vim/update.sh
+
+## To copy outside of VCS
+# .npmrc
+# .s3cfg
+# .zshenv
+

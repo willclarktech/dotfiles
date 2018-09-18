@@ -1,0 +1,29 @@
+[user]
+	name = willclarktech
+	email = willclarktech@users.noreply.github.com
+[core]
+	editor = vim
+[alias]
+	branch-name = !git rev-parse --abbrev-ref HEAD
+	unstage = reset HEAD --
+	co = checkout
+	pfl = !git push --force-with-lease
+	b = branch
+	pu = !git push --set-upstream origin $(git branch-name)
+	d = diff
+	dname = diff --name-only
+	cm = commit -m
+	ca = commit --amend
+	upstream = !git for-each-ref --format='%(upstream:short)' $(git symbolic-ref -q HEAD)
+[push]
+	default = simple
+[credential]
+	helper = cache --timeout=360000
+	useHttpPath = true
+[commit]
+	gpgsign = true
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[tag]
+	forcesignannotated = true
