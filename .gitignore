@@ -2,10 +2,6 @@
 
 ## Ignore everything then override
 *
-!/*/
-.nvm/
-.oh-my-zsh/
-.vim.bak/
 
 ## git
 !.gitignore
@@ -22,6 +18,7 @@
 !.editorconfig
 
 ### Atom
+!.atom/
 .atom/.gitignore
 !.atom/config.cson
 # !.atom/github.cson
@@ -32,6 +29,7 @@
 !.atom/styles.less
 
 ### Vim
+!.vim/
 !.vimrc
 !.vim/install.sh
 !.vim/update.sh
@@ -40,4 +38,3 @@
 # .npmrc
 # .s3cfg
 # .zshenv
-
