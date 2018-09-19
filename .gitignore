@@ -3,6 +3,10 @@
 ## Ignore everything then override
 *
 
+## Dotfiles
+!.dotfiles/
+!.dotfiles/install.sh
+
 ## git
 !.gitignore
 !.gitconfig
