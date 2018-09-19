@@ -6,6 +6,7 @@
 ## Dotfiles
 !.dotfiles/
 !.dotfiles/install.sh
+!.dotfiles/README.md
 
 ## git
 !.gitignore
