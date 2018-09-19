@@ -1,1 +1,1 @@
-./.vim/install.sh
+$HOME/.vim/install.sh
