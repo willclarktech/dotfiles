@@ -88,7 +88,7 @@ source "$ZSH/oh-my-zsh.sh"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+test -e "$HOME/.profile" && source "$HOME/.profile" # Load the default .profile
 
 autoload -U add-zsh-hook
 load-nvmrc() {
