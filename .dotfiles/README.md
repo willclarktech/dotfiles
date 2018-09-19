@@ -12,6 +12,10 @@ git fetch
 git checkout origin/master
 ```
 
+#### Add git signing key
+
+Follow instructions at <https://help.github.com/articles/telling-git-about-your-signing-key/>.
+
 ### Copy/create files not held in VCS
 
 See list at the end of the `.gitignore` file.
