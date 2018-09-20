@@ -1,3 +1,7 @@
+# Uncomment this line and the last line to profile
+# zmodload zsh/zprof
+
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -113,3 +117,7 @@ load-nvmrc
 
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+
+# Uncomment this line and the first line to profile
+# zprof
