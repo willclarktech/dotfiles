@@ -21,11 +21,16 @@ function logn {
 }
 
 # nvm settings
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export POSTGRESPATH="/usr/local/Cellar/postgresql@9.6/9.6.6"
+# export POSTGRESPATH="/usr/local/Cellar/postgresql@9.6/9.6.6"
+
+# Go stuff
 export GOPATH="$HOME/Code/go"
 export PATH="$POSTGRESPATH/bin:$GOPATH/bin:$PATH"
 # eval "$(goenv init -)"
+
+# Ethereum stuff
+alias ethwallet="/Applications/Ethereum\ Wallet.app/Contents/MacOS/Ethereum\ Wallet"
