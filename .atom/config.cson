@@ -2,6 +2,7 @@
   "atom-typescript": {}
   "autocomplete-plus":
     fileBlacklist: [
+      "*.feature"
       "*.md"
       "*.txt"
     ]
