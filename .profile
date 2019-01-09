@@ -32,5 +32,8 @@ export GOPATH="$HOME/Code/go"
 export PATH="$POSTGRESPATH/bin:$GOPATH/bin:$PATH"
 # eval "$(goenv init -)"
 
+# Java stuff
+export JAVA_HOME="$(/usr/libexec/java_home)"
+
 # Ethereum stuff
 alias ethwallet="/Applications/Ethereum\ Wallet.app/Contents/MacOS/Ethereum\ Wallet"
