@@ -1,3 +1,9 @@
 $HOME/.vim/install.sh
 
-brew install jq
+brew install \
+	emojify \
+	gnupg \
+	goenv \
+	jq
+
+
