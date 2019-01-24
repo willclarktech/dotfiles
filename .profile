@@ -28,9 +28,9 @@ function logn {
 # export POSTGRESPATH="/usr/local/Cellar/postgresql@9.6/9.6.6"
 
 # Go stuff
-export GOPATH="$HOME/Code/go"
+export GOPATH="$HOME/code/go"
 export PATH="$POSTGRESPATH/bin:$GOPATH/bin:$PATH"
-# eval "$(goenv init -)"
+eval "$(goenv init -)"
 
 # Java stuff
 export JAVA_HOME="$(/usr/libexec/java_home)"
