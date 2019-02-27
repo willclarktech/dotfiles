@@ -4,6 +4,5 @@ brew install \
 	emojify \
 	gnupg \
 	goenv \
-	jq
-
-
+	jq \
+	shellcheck
