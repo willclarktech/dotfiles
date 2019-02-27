@@ -1,23 +1,25 @@
+# shellcheck shell=sh
+
 # Helpful functions
 alias getip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias serve='python -m SimpleHTTPServer 8000'
 
-function loop {
-	eval $1
+loop() {
+	eval "$1"
 	if [ -z "$3" ]
 	then
-		sleep "$2s" && loop $1 $2
-	elif [ $3 != "1" ]
+		sleep "$2s" && loop "$1" "$2"
+	elif [ "$3" != "1" ]
 	then
-		sleep "$2s" && loop $1 $2 "$(expr $3 - 1)"
+		sleep "$2s" && loop "$1" "$2" "$(($3 - 1))"
 	fi
 }
 
 # git stuff
 alias s='git status'
 alias log='git log --oneline -n 10 --color | emojify'
-function logn {
-	git log --oneline -n $1 --color | emojify
+logn() {
+	git log --oneline -n "$1" --color | emojify
 }
 
 # nvm settings
@@ -33,7 +35,8 @@ export PATH="$POSTGRESPATH/bin:$GOPATH/bin:$PATH"
 eval "$(goenv init -)"
 
 # Java stuff
-export JAVA_HOME="$(/usr/libexec/java_home)"
+JAVA_HOME="$(/usr/libexec/java_home)"
+export JAVA_HOME
 
 # Ethereum stuff
 alias ethwallet="/Applications/Ethereum\ Wallet.app/Contents/MacOS/Ethereum\ Wallet"
