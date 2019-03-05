@@ -1,4 +1,7 @@
 "*":
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
   "atom-typescript": {}
   "autocomplete-plus":
     fileBlacklist: [
@@ -13,16 +16,28 @@
       "twilight-syntax-spacegray-ui"
     ]
   editor:
-    fontSize: 13
+    fontFamily: "Fira Code, Menlo, Consolas, DejaVu Sans Mono, monospace"
     invisibles:
       eol: "↩"
     showInvisibles: true
     tabLength: 4
   "git-blame":
     columnWidth: 307
+  "go-plus":
+    disabledBundledPackages: [
+      "go-debug"
+      "go-signature-statusbar"
+      "atom-ide-ui"
+    ]
+    format:
+      tool: "gofmt"
+    panel:
+      displayMode: "closed"
+      focusOnFailure: false
   "linter-eslint":
-    fixOnSave: true
-    ignoreFixableRulesWhileTyping: true
+    autofix:
+      fixOnSave: true
+      ignoreFixableRulesWhileTyping: true
   "linter-tslint":
     fixOnSave: true
   "linter-ui-default": {}
