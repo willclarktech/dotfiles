@@ -1,0 +1,26 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+;",
+		"command": "extension.toggleSemicolon",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+;",
+		"command": "extension.toggleColon",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+,",
+		"command": "extension.toggleComma",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "cmd+k left",
+		"command": "workbench.action.splitEditorLeft"
+	},
+	{
+		"key": "cmd+k right",
+		"command": "workbench.action.splitEditorRight"
+	}
+]
