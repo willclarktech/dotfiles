@@ -1,0 +1,13 @@
+akamud.vscode-theme-onedark
+awesomektvn.toggle-semicolon
+eamodio.gitlens
+EditorConfig.EditorConfig
+esbenp.prettier-vscode
+ms-vscode.atom-keybindings
+ms-vscode.vscode-typescript-tslint-plugin
+npxms.hide-gitignored
+PKief.material-icon-theme
+Tyriar.sort-lines
+waderyan.gitblame
+wayou.vscode-todo-highlight
+wix.vscode-import-cost
