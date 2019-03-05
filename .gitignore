@@ -34,6 +34,15 @@
 # !.atom/snippets.cson
 !.atom/styles.less
 
+### VSCode
+!Library/
+!Library/Application\ Support/
+!Library/Application\ Support/Code/
+!Library/Application\ Support/Code/User/
+!Library/Application\ Support/Code/User/keybindings.json
+!Library/Application\ Support/Code/User/settings.json
+!.dotfiles/vscode-extensions.txt
+
 ### Vim
 !.vim/
 !.vimrc
