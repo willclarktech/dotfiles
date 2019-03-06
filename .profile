@@ -31,7 +31,7 @@ logn() {
 
 # Go stuff
 export GOPATH="$HOME/code/go"
-export PATH="$POSTGRESPATH/bin:$GOPATH/bin:$PATH"
+export PATH="$PATH:$GOPATH/bin"
 eval "$(goenv init -)"
 
 # Java stuff
