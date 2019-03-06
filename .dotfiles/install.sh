@@ -7,4 +7,5 @@ brew install \
 	gnupg \
 	goenv \
 	jq \
-	shellcheck
+	shellcheck \
+	wget
