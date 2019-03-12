@@ -23,6 +23,7 @@
     "editor.renderControlCharacters": false,
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "material-icon-theme",
-    "window.zoomLevel": -1,
-    "editor.lightbulb.enabled": false
+    "window.zoomLevel": 0,
+    "editor.lightbulb.enabled": false,
+    "solidity.linter": "solhint"
 }
