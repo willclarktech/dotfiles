@@ -40,3 +40,6 @@ export JAVA_HOME
 
 # Ethereum stuff
 alias ethwallet="/Applications/Ethereum\ Wallet.app/Contents/MacOS/Ethereum\ Wallet"
+
+# Docker stuff
+alias docker-start="/Applications/Docker.app"
