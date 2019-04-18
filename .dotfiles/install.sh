@@ -8,4 +8,5 @@ brew install \
 	goenv \
 	jq \
 	shellcheck \
-	wget
+	wget \
+	tree
