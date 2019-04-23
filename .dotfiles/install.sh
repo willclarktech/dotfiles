@@ -9,4 +9,6 @@ brew install \
 	jq \
 	shellcheck \
 	wget \
-	tree
+	python \
+	tree \
+	hub
