@@ -6,9 +6,9 @@ brew install \
 	emojify \
 	gnupg \
 	goenv \
+	hub \
 	jq \
-	shellcheck \
-	wget \
 	python \
+	shellcheck \
 	tree \
-	hub
+	wget
