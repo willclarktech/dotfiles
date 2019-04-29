@@ -1,7 +1,6 @@
 {
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
     "editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
     "editor.insertSpaces": false,
     "editor.fontLigatures": true,
