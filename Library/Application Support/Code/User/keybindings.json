@@ -22,5 +22,13 @@
 	{
 		"key": "cmd+k right",
 		"command": "workbench.action.splitEditorRight"
+	},
+	{
+		"key": "cmd+k cmd+l",
+		"command": "editor.action.transformToLowercase"
+	},
+	{
+		"key": "cmd+k cmd+u",
+		"command": "editor.action.transformToUppercase"
 	}
 ]
