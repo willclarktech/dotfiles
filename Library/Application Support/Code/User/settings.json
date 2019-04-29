@@ -24,5 +24,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 0,
     "editor.lightbulb.enabled": false,
-    "solidity.linter": "solhint"
+    "solidity.compileUsingRemoteVersion" : "truffle-version",
+    // "solidity.linter": "solhint",
+    "solidity.packageDefaultDependenciesDirectory": "node_modules",
 }
