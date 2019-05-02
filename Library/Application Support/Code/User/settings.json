@@ -27,4 +27,5 @@
     "solidity.compileUsingRemoteVersion" : "truffle-version",
     // "solidity.linter": "solhint",
     "solidity.packageDefaultDependenciesDirectory": "node_modules",
+    "gitlens.codeLens.enabled": false
 }
