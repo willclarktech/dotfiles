@@ -10,6 +10,7 @@ brew install \
 	hub \
 	jq \
 	python \
+	python@2 \
 	shellcheck \
 	tree \
 	wget
