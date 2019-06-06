@@ -49,6 +49,10 @@
 !.vim/install.sh
 !.vim/update.sh
 
+### Haskell
+!.ghc/
+!.ghc/ghci.conf
+
 ## To copy outside of VCS
 # .npmrc
 # .s3cfg
