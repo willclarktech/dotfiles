@@ -22,6 +22,10 @@ logn() {
 	git log --oneline -n "$1" --color | emojify
 }
 
+## Python stuff
+alias python="python3"
+alias pip="pip3"
+
 # nvm settings
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
