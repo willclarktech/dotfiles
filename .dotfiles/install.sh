@@ -13,4 +13,5 @@ brew install \
 	python@2 \
 	shellcheck \
 	tree \
-	wget
+	wget \
+	youtube-dl
