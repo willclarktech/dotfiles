@@ -47,3 +47,8 @@ alias ethwallet="/Applications/Ethereum\ Wallet.app/Contents/MacOS/Ethereum\ Wal
 
 # Docker stuff
 alias docker-start="/Applications/Docker.app"
+
+# Ruby stuff
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export GEM_HOME="$HOME/.gem"
+
