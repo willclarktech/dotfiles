@@ -11,6 +11,7 @@ brew install \
 	jq \
 	python \
 	python@2 \
+	ruby \
 	shellcheck \
 	tree \
 	wget \
