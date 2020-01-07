@@ -15,4 +15,5 @@ brew install \
 	shellcheck \
 	tree \
 	wget \
+	yarn \
 	youtube-dl
