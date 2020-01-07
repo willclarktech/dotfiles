@@ -5,6 +5,7 @@
 
 ## Dotfiles
 !.dotfiles/
+!.dotfiles/Brewfile
 !.dotfiles/install.sh
 !.dotfiles/README.md
 !.dotfiles/new-chrome-profile.md
