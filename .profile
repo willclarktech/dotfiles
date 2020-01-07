@@ -2,7 +2,7 @@
 
 # Helpful functions
 alias getip='dig +short myip.opendns.com @resolver1.opendns.com'
-alias serve='python -m SimpleHTTPServer 8000'
+alias serve='python -m http.server 8000'
 
 loop() {
 	eval "$1"
