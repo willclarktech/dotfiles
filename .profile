@@ -22,17 +22,6 @@ logn() {
 	git log --oneline -n "$1" --color | emojify
 }
 
-## Python stuff
-# alias python="python3"
-# alias pip="pip3"
-
-# nvm settings
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# export POSTGRESPATH="/usr/local/Cellar/postgresql@9.6/9.6.6"
-
 # Go stuff
 export GOPATH="$HOME/code/go"
 export PATH="$PATH:$GOPATH/bin"
@@ -52,3 +41,17 @@ alias docker-start="/Applications/Docker.app"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export GEM_HOME="$HOME/.gem"
 
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/will/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/will/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/will/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/will/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<

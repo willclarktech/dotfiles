@@ -93,47 +93,8 @@ source "$ZSH/oh-my-zsh.sh"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 test -e "$HOME/.profile" && source "$HOME/.profile" # Load the default .profile
-
-#autoload -U add-zsh-hook
-#load-nvmrc() {
-#  local node_version="$(nvm version)"
-#  local nvmrc_path="$(nvm_find_nvmrc)"
-#
-#  if [ -n "$nvmrc_path" ]; then
-#    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
-#
-#    if [ "$nvmrc_node_version" = "N/A" ]; then
-#      nvm install
-#    elif [ "$nvmrc_node_version" != "$node_version" ]; then
-#      nvm use
-#    fi
-#  elif [ "$node_version" != "$(nvm version default)" ]; then
-#    echo "Reverting to nvm default version"
-#    nvm use default
-#  fi
-#}
-#add-zsh-hook chpwd load-nvmrc
-#load-nvmrc
-
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 
 # Uncomment this line and the first line to profile
 # zprof
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/usr/local/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/usr/local/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/usr/local/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/usr/local/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
