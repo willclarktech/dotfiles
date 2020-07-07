@@ -1,5 +1,7 @@
 # shellcheck shell=sh
 
+export EDITOR="/usr/bin/vim"
+
 # Helpful functions
 alias getip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias serve='python -m http.server 8000'
