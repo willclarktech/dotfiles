@@ -24,17 +24,6 @@
 ## Editors
 !.editorconfig
 
-### Atom
-!.atom/
-.atom/.gitignore
-!.atom/config.cson
-# !.atom/github.cson
-# !.atom/init.coffee
-!.atom/keymap.cson
-!.atom/my-packages.txt
-# !.atom/snippets.cson
-!.atom/styles.less
-
 ### VSCode
 !Library/
 !Library/Application\ Support/
