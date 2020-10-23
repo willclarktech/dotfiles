@@ -1,6 +1,7 @@
 [user]
 	name = willclarktech
 	email = willclarktech@users.noreply.github.com
+	signingkey = 551A86E2E398ADF7
 [core]
 	editor = vim
 [alias]
