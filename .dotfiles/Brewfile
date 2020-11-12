@@ -1,6 +1,6 @@
 brew "coreutils"
 brew "emojify"
-brew "github/gh/gh"
+brew "gh"
 brew "gnupg"
 brew "goenv"
 brew "jq"
