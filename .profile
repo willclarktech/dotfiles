@@ -46,19 +46,9 @@ alias docker-start="/Applications/Docker.app"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export GEM_HOME="$HOME/.gem"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/will/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/will/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/will/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/will/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+# Python stuff
+export PATH="/usr/local/opt/python/libexec/bin:$PATH" # Homebrew unversioned symlinks
+export PIPENV_VENV_IN_PROJECT=1
 
+# Rust stuff
 export PATH="$HOME/.cargo/bin:$PATH"
