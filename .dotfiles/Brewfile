@@ -1,5 +1,6 @@
 brew "coreutils"
 brew "emojify"
+brew "ffmpeg"
 brew "gh"
 brew "gnupg"
 brew "goenv"
