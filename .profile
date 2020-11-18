@@ -40,7 +40,7 @@ export JAVA_HOME
 alias ethwallet="/Applications/Ethereum\ Wallet.app/Contents/MacOS/Ethereum\ Wallet"
 
 # Docker stuff
-alias docker-start="/Applications/Docker.app"
+alias docker-start="open -a /Applications/Docker.app"
 
 # Ruby stuff
 export PATH="/usr/local/opt/ruby/bin:$PATH"
