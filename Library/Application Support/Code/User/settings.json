@@ -55,4 +55,8 @@
 			"filenamePattern": "*.ipynb"
 		}
 	],
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+	},
+	"editor.accessibilitySupport": "off",
 }

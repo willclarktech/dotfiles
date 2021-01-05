@@ -16,14 +16,6 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "cmd+k left",
-		"command": "workbench.action.splitEditorLeft"
-	},
-	{
-		"key": "cmd+k right",
-		"command": "workbench.action.splitEditorRight"
-	},
-	{
 		"key": "cmd+k cmd+l",
 		"command": "editor.action.transformToLowercase"
 	},
