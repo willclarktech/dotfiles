@@ -59,4 +59,5 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"editor.accessibilitySupport": "off",
+	"editor.fontSize": 11,
 }
