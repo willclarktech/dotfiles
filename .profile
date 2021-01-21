@@ -52,3 +52,7 @@ export PIPENV_VENV_IN_PROJECT=1
 
 # Rust stuff
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# Protobuf stuff
+function protohex { echo $1 | xxd -r -p | protoc --decode_raw }
+
