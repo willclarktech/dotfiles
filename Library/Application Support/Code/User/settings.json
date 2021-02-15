@@ -60,4 +60,5 @@
 	},
 	"editor.accessibilitySupport": "off",
 	"editor.fontSize": 11,
+	"python.languageServer": "Pylance",
 }
