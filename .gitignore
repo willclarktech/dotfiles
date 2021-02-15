@@ -8,6 +8,7 @@
 ## Dotfiles
 !.dotfiles/
 !.dotfiles/Brewfile
+!.dotfiles/Brewfile.lock.json
 !.dotfiles/install.sh
 !.dotfiles/README.md
 !.dotfiles/new-chrome-profile.md
