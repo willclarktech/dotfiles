@@ -2,6 +2,8 @@
 
 ## Ignore everything then override
 *
+!Library/
+!Library/Application\ Support/
 
 ## Dotfiles
 !.dotfiles/
@@ -25,8 +27,6 @@
 !.editorconfig
 
 ### VSCode
-!Library/
-!Library/Application\ Support/
 !Library/Application\ Support/Code/
 !Library/Application\ Support/Code/User/
 !Library/Application\ Support/Code/User/keybindings.json
@@ -42,6 +42,10 @@
 ### Haskell
 !.ghc/
 !.ghc/ghci.conf
+
+### Python
+!Library/Application\ Support/pypoetry/
+!Library/Application\ Support/pypoetry/config.toml
 
 ## To copy outside of VCS
 # .npmrc
