@@ -31,7 +31,6 @@
 	"terminal.integrated.inheritEnv": false,
 	"typescript.surveys.enabled": false,
 	"window.restoreWindows": "none",
-	"window.zoomLevel": 0,
 	"workbench.activityBar.visible": false,
 	"workbench.colorTheme": "SynthWave '84",
 	"workbench.editor.highlightModifiedTabs": true,
@@ -59,6 +58,10 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"editor.accessibilitySupport": "off",
-	"editor.fontSize": 11,
 	"python.languageServer": "Pylance",
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": false
+	},
 }
