@@ -16,6 +16,8 @@
 ## git
 !.gitignore
 !.gitconfig
+!.git-template
+!.git-template/HEAD
 
 ## Shells
 !.profile

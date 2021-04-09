@@ -36,3 +36,4 @@
 	required = true
 [init]
 	defaultBranch = main
+	templateDir = ~/.git-template
