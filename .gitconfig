@@ -37,3 +37,5 @@
 [init]
 	defaultBranch = main
 	templateDir = ~/.git-template
+[pull]
+	ff = only
