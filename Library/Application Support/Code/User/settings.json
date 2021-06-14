@@ -1,7 +1,22 @@
 {
+	"[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.wordWrap": "on",
+		"editor.quickSuggestions": false
+	},
+	"[python]": {
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": { "source.organizeImports": true }
+	},
+	"[rust]": { "editor.codeLens": false },
+	"[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 	"atomKeymap.promptV3Features": true,
 	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.acceptSuggestionOnEnter": "off",
+	"editor.accessibilitySupport": "off",
 	"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
 	"editor.fontLigatures": true,
 	"editor.formatOnSave": true,
@@ -19,49 +34,34 @@
 		"typescript",
 		"typescriptreact"
 	],
+	"explorer.autoReveal": false,
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
 	"gitlens.codeLens.enabled": false,
+	"python.formatting.provider": "black",
+	"python.languageServer": "Pylance",
+	"python.linting.mypyEnabled": true,
+	"python.showStartPage": false,
 	"python.terminal.activateEnvironment": false,
+	"rust-client.rustupPath": "~/.cargo/bin/rustup",
 	"search.useGlobalIgnoreFiles": true,
 	"solidity.compileUsingRemoteVersion": "truffle-version",
 	"solidity.packageDefaultDependenciesDirectory": "node_modules",
 	"telemetry.enableCrashReporter": false,
 	"telemetry.enableTelemetry": false,
 	"terminal.integrated.inheritEnv": false,
+	"typescript.enablePromptUseWorkspaceTsdk": true,
 	"typescript.surveys.enabled": false,
 	"window.restoreWindows": "none",
 	"workbench.activityBar.visible": false,
 	"workbench.colorTheme": "SynthWave '84",
 	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
 	"workbench.enableExperiments": false,
 	"workbench.fontAliasing": "antialiased",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.startupEditor": "none",
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"explorer.autoReveal": false,
-	"python.showStartPage": false,
-	"python.formatting.provider": "black",
-	"python.linting.mypyEnabled": true,
-	"workbench.editorAssociations": [
-		{
-			"viewType": "jupyter.notebook.ipynb",
-			"filenamePattern": "*.ipynb"
-		}
-	],
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	},
-	"editor.accessibilitySupport": "off",
-	"python.languageServer": "Pylance",
-	"[markdown]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"editor.wordWrap": "on",
-		"editor.quickSuggestions": false
-	},
+	"window.zoomLevel": -1
 }
