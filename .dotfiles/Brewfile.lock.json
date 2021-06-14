@@ -580,6 +580,19 @@
           }
         }
       }
+    },
+    "tap": {
+      "homebrew/cask-fonts": {
+        "revision": "56b5f04cc3904df158fa632c3776943d3e8177c2"
+      }
+    },
+    "cask": {
+      "font-fira-code": {
+        "version": null,
+        "options": {
+          "full_name": "font-fira-code"
+        }
+      }
     }
   },
   "system": {

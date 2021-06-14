@@ -21,3 +21,7 @@ brew "tree"
 brew "wget"
 brew "yarn"
 brew "youtube-dl"
+
+tap "homebrew/cask-fonts"
+cask "font-fira-code"
+
