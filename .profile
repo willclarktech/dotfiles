@@ -26,6 +26,10 @@ alias log='git log --oneline -n 10 --color | emojify'
 logn() {
 	git log --oneline -n "$1" --color | emojify
 }
+export GPG_TTY=$(tty)
+
+# Homebrew
+export PATH="$PATH:/opt/homebrew/bin"
 
 # Go stuff
 export GOPATH="$HOME/code/go"
