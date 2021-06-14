@@ -20,6 +20,8 @@ See list at the end of the `.gitignore` file.
 
 ### Install VSCode
 
+Use command palette to install CLI tools.
+
 ### Run install script
 
 ```
