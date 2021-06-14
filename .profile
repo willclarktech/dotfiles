@@ -55,7 +55,7 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH" # Homebrew unversioned sym
 export PIPENV_VENV_IN_PROJECT=1
 
 # Rust stuff
-export PATH="$HOME/.cargo/bin:$PATH"
+. "$HOME/.cargo/env"
 
 # Protobuf stuff
 function protohex { echo $1 | xxd -r -p | protoc --decode_raw }
