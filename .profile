@@ -60,3 +60,5 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Protobuf stuff
 function protohex { echo $1 | xxd -r -p | protoc --decode_raw }
 
+# Solana stuff
+export PATH="/Users/will/.local/share/solana/install/active_release/bin:$PATH"
